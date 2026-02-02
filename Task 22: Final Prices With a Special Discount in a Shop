@@ -1,0 +1,32 @@
+import java.util.Stack;
+
+class Solution {
+    public int[] finalPrices(int[] prices) {
+        int n = prices.length;
+        int[] answer = new int[n];
+        Stack<Integer> stack = new Stack<>();
+
+        // Traverse from right to left
+        for (int i = n - 1; i >= 0; i--) {
+
+            // Remove prices greater than current
+            while (!stack.isEmpty() && stack.peek() > prices[i]) {
+                stack.pop();
+            }
+
+            // Apply discount if available
+            if (stack.isEmpty()) {
+                answer[i] = prices[i];
+            } else {
+                answer[i] = prices[i] - stack.peek();
+            }
+
+            // Push current price
+            stack.push(prices[i]);
+        }
+
+        return answer;
+    }
+}
+Output
+[4,2,4,2,3]
