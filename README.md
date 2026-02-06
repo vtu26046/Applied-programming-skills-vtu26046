@@ -9,4 +9,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0283-move-zeroes](https://github.com/vtu26046/Applied-programming-skills-vtu26046/tree/master/0283-move-zeroes) |
+## Design
+|  |
+| ------- |
+| [0933-number-of-recent-calls](https://github.com/vtu26046/Applied-programming-skills-vtu26046/tree/master/0933-number-of-recent-calls) |
+## Queue
+|  |
+| ------- |
+| [0933-number-of-recent-calls](https://github.com/vtu26046/Applied-programming-skills-vtu26046/tree/master/0933-number-of-recent-calls) |
+## Data Stream
+|  |
+| ------- |
+| [0933-number-of-recent-calls](https://github.com/vtu26046/Applied-programming-skills-vtu26046/tree/master/0933-number-of-recent-calls) |
 <!---LeetCode Topics End-->
