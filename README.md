@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0933-number-of-recent-calls](https://github.com/vtu26046/Applied-programming-skills-vtu26046/tree/master/0933-number-of-recent-calls) |
+| [1603-design-parking-system](https://github.com/vtu26046/Applied-programming-skills-vtu26046/tree/master/1603-design-parking-system) |
 ## Queue
 |  |
 | ------- |
@@ -31,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [1603-design-parking-system](https://github.com/vtu26046/Applied-programming-skills-vtu26046/tree/master/1603-design-parking-system) |
 | [1704-determine-if-string-halves-are-alike](https://github.com/vtu26046/Applied-programming-skills-vtu26046/tree/master/1704-determine-if-string-halves-are-alike) |
 ## Hash Table
 |  |
@@ -45,4 +47,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0459-repeated-substring-pattern](https://github.com/vtu26046/Applied-programming-skills-vtu26046/tree/master/0459-repeated-substring-pattern) |
 | [0796-rotate-string](https://github.com/vtu26046/Applied-programming-skills-vtu26046/tree/master/0796-rotate-string) |
+## Simulation
+|  |
+| ------- |
+| [1603-design-parking-system](https://github.com/vtu26046/Applied-programming-skills-vtu26046/tree/master/1603-design-parking-system) |
 <!---LeetCode Topics End-->
