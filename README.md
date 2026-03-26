@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0217-contains-duplicate](https://github.com/vtu26046/Applied-programming-skills-vtu26046/tree/master/0217-contains-duplicate) |
 | [0283-move-zeroes](https://github.com/vtu26046/Applied-programming-skills-vtu26046/tree/master/0283-move-zeroes) |
+| [0705-design-hashset](https://github.com/vtu26046/Applied-programming-skills-vtu26046/tree/master/0705-design-hashset) |
 | [1472-design-browser-history](https://github.com/vtu26046/Applied-programming-skills-vtu26046/tree/master/1472-design-browser-history) |
 ## Two Pointers
 |  |
@@ -14,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0705-design-hashset](https://github.com/vtu26046/Applied-programming-skills-vtu26046/tree/master/0705-design-hashset) |
 | [0933-number-of-recent-calls](https://github.com/vtu26046/Applied-programming-skills-vtu26046/tree/master/0933-number-of-recent-calls) |
 | [1396-design-underground-system](https://github.com/vtu26046/Applied-programming-skills-vtu26046/tree/master/1396-design-underground-system) |
 | [1472-design-browser-history](https://github.com/vtu26046/Applied-programming-skills-vtu26046/tree/master/1472-design-browser-history) |
@@ -43,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0217-contains-duplicate](https://github.com/vtu26046/Applied-programming-skills-vtu26046/tree/master/0217-contains-duplicate) |
+| [0705-design-hashset](https://github.com/vtu26046/Applied-programming-skills-vtu26046/tree/master/0705-design-hashset) |
 | [1396-design-underground-system](https://github.com/vtu26046/Applied-programming-skills-vtu26046/tree/master/1396-design-underground-system) |
 ## Sorting
 |  |
@@ -60,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0705-design-hashset](https://github.com/vtu26046/Applied-programming-skills-vtu26046/tree/master/0705-design-hashset) |
 | [1472-design-browser-history](https://github.com/vtu26046/Applied-programming-skills-vtu26046/tree/master/1472-design-browser-history) |
 ## Stack
 |  |
@@ -69,4 +73,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1472-design-browser-history](https://github.com/vtu26046/Applied-programming-skills-vtu26046/tree/master/1472-design-browser-history) |
+## Hash Function
+|  |
+| ------- |
+| [0705-design-hashset](https://github.com/vtu26046/Applied-programming-skills-vtu26046/tree/master/0705-design-hashset) |
 <!---LeetCode Topics End-->
