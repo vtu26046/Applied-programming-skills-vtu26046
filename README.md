@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0217-contains-duplicate](https://github.com/vtu26046/Applied-programming-skills-vtu26046/tree/master/0217-contains-duplicate) |
 | [0283-move-zeroes](https://github.com/vtu26046/Applied-programming-skills-vtu26046/tree/master/0283-move-zeroes) |
+| [1472-design-browser-history](https://github.com/vtu26046/Applied-programming-skills-vtu26046/tree/master/1472-design-browser-history) |
 ## Two Pointers
 |  |
 | ------- |
@@ -15,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0933-number-of-recent-calls](https://github.com/vtu26046/Applied-programming-skills-vtu26046/tree/master/0933-number-of-recent-calls) |
 | [1396-design-underground-system](https://github.com/vtu26046/Applied-programming-skills-vtu26046/tree/master/1396-design-underground-system) |
+| [1472-design-browser-history](https://github.com/vtu26046/Applied-programming-skills-vtu26046/tree/master/1472-design-browser-history) |
 | [1603-design-parking-system](https://github.com/vtu26046/Applied-programming-skills-vtu26046/tree/master/1603-design-parking-system) |
 ## Queue
 |  |
@@ -24,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0933-number-of-recent-calls](https://github.com/vtu26046/Applied-programming-skills-vtu26046/tree/master/0933-number-of-recent-calls) |
+| [1472-design-browser-history](https://github.com/vtu26046/Applied-programming-skills-vtu26046/tree/master/1472-design-browser-history) |
 ## String
 |  |
 | ------- |
@@ -54,4 +57,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1603-design-parking-system](https://github.com/vtu26046/Applied-programming-skills-vtu26046/tree/master/1603-design-parking-system) |
+## Linked List
+|  |
+| ------- |
+| [1472-design-browser-history](https://github.com/vtu26046/Applied-programming-skills-vtu26046/tree/master/1472-design-browser-history) |
+## Stack
+|  |
+| ------- |
+| [1472-design-browser-history](https://github.com/vtu26046/Applied-programming-skills-vtu26046/tree/master/1472-design-browser-history) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [1472-design-browser-history](https://github.com/vtu26046/Applied-programming-skills-vtu26046/tree/master/1472-design-browser-history) |
 <!---LeetCode Topics End-->
