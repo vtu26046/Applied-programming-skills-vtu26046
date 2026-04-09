@@ -1,72 +1,52 @@
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 class UndergroundSystem {
 
-    // Store check-in details: id -> (station, time)
-    private Map<Integer, CheckIn> checkInMap;
+    // Stores check-in details: id -> (station, time)
+    private Map<Integer, Pair> checkInMap;
 
-    // Store route data: "start-end" -> (totalTime, count)
-    private Map<String, Trip> routeMap;
+    // Stores route data: "start-end" -> (totalTime, count)
+    private Map<String, int[]> travelMap;
 
-    // Helper class for check-in info
-    class CheckIn {
+    // Helper class
+    class Pair {
         String station;
         int time;
 
-        CheckIn(String station, int time) {
+        Pair(String station, int time) {
             this.station = station;
             this.time = time;
         }
     }
 
-    // Helper class for route info
-    class Trip {
-        int totalTime;
-        int count;
-
-        Trip(int totalTime, int count) {
-            this.totalTime = totalTime;
-            this.count = count;
-        }
-    }
-
-    // Constructor
     public UndergroundSystem() {
         checkInMap = new HashMap<>();
-        routeMap = new HashMap<>();
+        travelMap = new HashMap<>();
     }
 
-    // Check-in
     public void checkIn(int id, String stationName, int t) {
-        checkInMap.put(id, new CheckIn(stationName, t));
+        checkInMap.put(id, new Pair(stationName, t));
     }
 
-    // Check-out
     public void checkOut(int id, String stationName, int t) {
-        CheckIn checkIn = checkInMap.get(id);
+        Pair p = checkInMap.get(id);
 
-        String startStation = checkIn.station;
-        int startTime = checkIn.time;
+        String route = p.station + "-" + stationName;
+        int travelTime = t - p.time;
 
-        String key = startStation + "-" + stationName;
-        int travelTime = t - startTime;
+        travelMap.putIfAbsent(route, new int[2]);
+        int[] data = travelMap.get(route);
 
-        Trip trip = routeMap.getOrDefault(key, new Trip(0, 0));
-        trip.totalTime += travelTime;
-        trip.count += 1;
+        data[0] += travelTime; // total time
+        data[1] += 1;          // count
 
-        routeMap.put(key, trip);
-
-        // Remove user after checkout
         checkInMap.remove(id);
     }
 
-    // Get average time
     public double getAverageTime(String startStation, String endStation) {
-        String key = startStation + "-" + endStation;
-        Trip trip = routeMap.get(key);
+        String route = startStation + "-" + endStation;
+        int[] data = travelMap.get(route);
 
-        return (double) trip.totalTime / trip.count;
+        return (double) data[0] / data[1];
     }
 }
