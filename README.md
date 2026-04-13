@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/vtu26046/Applied-programming-skills-vtu26046/tree/master/0283-move-zeroes) |
 | [0705-design-hashset](https://github.com/vtu26046/Applied-programming-skills-vtu26046/tree/master/0705-design-hashset) |
 | [1472-design-browser-history](https://github.com/vtu26046/Applied-programming-skills-vtu26046/tree/master/1472-design-browser-history) |
+| [1480-running-sum-of-1d-array](https://github.com/vtu26046/Applied-programming-skills-vtu26046/tree/master/1480-running-sum-of-1d-array) |
 ## Two Pointers
 |  |
 | ------- |
@@ -133,4 +134,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0113-path-sum-ii](https://github.com/vtu26046/Applied-programming-skills-vtu26046/tree/master/0113-path-sum-ii) |
 | [0257-binary-tree-paths](https://github.com/vtu26046/Applied-programming-skills-vtu26046/tree/master/0257-binary-tree-paths) |
+## Prefix Sum
+|  |
+| ------- |
+| [1480-running-sum-of-1d-array](https://github.com/vtu26046/Applied-programming-skills-vtu26046/tree/master/1480-running-sum-of-1d-array) |
 <!---LeetCode Topics End-->
